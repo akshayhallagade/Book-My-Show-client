@@ -11,8 +11,8 @@ const AlertNotification = () => {
   useEffect(() => {
     setTimeout(() => {
       dispatch(changeAlertText(""));
-    }, 2000);
-  }, [dispatch]);
+    }, 4000);
+  });
 
   return (
     <>
@@ -21,7 +21,7 @@ const AlertNotification = () => {
           variant="filled"
           icon={<CheckIcon fontSize="inherite" />}
           severity="success"
-          className="w-fit fixed right-5 bottom-5"
+          className="w-fit fixed right-8 bottom-5"
           onClose={() => {
             dispatch(changeAlertText(""));
           }}

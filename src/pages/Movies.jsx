@@ -2,8 +2,9 @@ import Card from "../components/Card";
 import Header from "../components/Header";
 import { useGetAllMovies } from "../hooks/query/movies.query";
 
-function Homepage() {
+function Movies() {
   const { movies, isLoading } = useGetAllMovies();
+
   return (
     <>
       <Header />
@@ -19,4 +20,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Movies;

@@ -85,7 +85,7 @@ const Header = () => {
         </div>
       </div>
       <div className="bg-gray-100 px-10 py-2 flex gap-2 border-b-2 border-gray-200">
-        <a className="text-slate-800 text-sm" href="">
+        <a className="text-slate-800 text-sm" href="/movies">
           Movie
         </a>
       </div>
